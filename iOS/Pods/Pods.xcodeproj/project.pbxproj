@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02CCC288283C8E800C1ADA6B7BDF0B80 /* Pods-WebRTC_Learn-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C1CF05E67D2329E11D51027C08B04B /* Pods-WebRTC_Learn-dummy.m */; };
+		23ADB5C2645DA260991CEB472CEF9B6C /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 94FBFA659D069EE04048D42604E6ACD5 /* SocketRocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2687224CF0CDD7C1A21CC8078DB6F24C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */; };
+		3E92BB388F2E4848C367A5474C47C758 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF25F8EAC40210B7EB1DE1183018794 /* SRWebSocket.m */; };
+		A01DB8DB893FBE83EE11D2733387EA06 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */; };
+		B4FEF446262B38228B9AA13A93C127E1 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E9DF94889EA9617C4BA2D1C48319C68 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C173D57163DEC9DCF6B196FF19D05732 /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 800A87F3109476FC4308F8D241AA8CC3 /* SocketRocket-dummy.m */; };
+		ED20B446AF61C8ED6ABFBCD89F0ED01E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+		FACC41EDCD02B091EADAA34594F26456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36CF143C9488AC2295275A95E1D8CFF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E62EEFB5CDABF6763CB7AC1FB7D0443A;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F7664B95D21B6F4578A9ACD625E0E29 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2166BB5385BEFC681C5C26A607F096B0 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = Frameworks/frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		243FFB6081C5F5434BA03DB5349E991C /* Pods-WebRTC_Learn-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebRTC_Learn-frameworks.sh"; sourceTree = "<group>"; };
+		2ECF8541FB7CAB69112B50FFA237906C /* libPods-WebRTC_Learn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WebRTC_Learn.a"; path = "libPods-WebRTC_Learn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C1CF05E67D2329E11D51027C08B04B /* Pods-WebRTC_Learn-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WebRTC_Learn-dummy.m"; sourceTree = "<group>"; };
+		4E9DF94889EA9617C4BA2D1C48319C68 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		4EF3A69C5FD5B4DE267E35812ABC7959 /* Pods-WebRTC_Learn-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WebRTC_Learn-resources.sh"; sourceTree = "<group>"; };
+		50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		5AF25F8EAC40210B7EB1DE1183018794 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		64038349037A802873E5041FA0B61672 /* Pods-WebRTC_Learn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebRTC_Learn.release.xcconfig"; sourceTree = "<group>"; };
+		800A87F3109476FC4308F8D241AA8CC3 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		809A4A5B2106273944903A3398422B11 /* Pods-WebRTC_Learn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WebRTC_Learn.debug.xcconfig"; sourceTree = "<group>"; };
+		8ADF4867DAF267146D1DCBB0A8DB92D0 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94FBFA659D069EE04048D42604E6ACD5 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		961E8EC7939701A1B88FA61FDE42125C /* Pods-WebRTC_Learn-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WebRTC_Learn-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A2B2781F90A130C4844CB173D0D02D14 /* Pods-WebRTC_Learn-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WebRTC_Learn-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		EC02F33CA3C46E4427DF2C248FB04CF8 /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C565C43B466D22EC36DF9D89E083548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED20B446AF61C8ED6ABFBCD89F0ED01E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED11FE61ED1DFE76ECA0CE5A080D1A32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01DB8DB893FBE83EE11D2733387EA06 /* CFNetwork.framework in Frameworks */,
+				FACC41EDCD02B091EADAA34594F26456 /* Foundation.framework in Frameworks */,
+				2687224CF0CDD7C1A21CC8078DB6F24C /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6D888213905F34217EF1880BE2758BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38182B603841AD292B5076CD8F90AB39 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				94FBFA659D069EE04048D42604E6ACD5 /* SocketRocket.h */,
+				4E9DF94889EA9617C4BA2D1C48319C68 /* SRWebSocket.h */,
+				5AF25F8EAC40210B7EB1DE1183018794 /* SRWebSocket.m */,
+				EC22C6E364C3FE2BAF9EA5D2485DEB94 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		438095000536BCFBDDDAA3A41BC0BA36 /* Pods-WebRTC_Learn */ = {
+			isa = PBXGroup;
+			children = (
+				A2B2781F90A130C4844CB173D0D02D14 /* Pods-WebRTC_Learn-acknowledgements.markdown */,
+				961E8EC7939701A1B88FA61FDE42125C /* Pods-WebRTC_Learn-acknowledgements.plist */,
+				41C1CF05E67D2329E11D51027C08B04B /* Pods-WebRTC_Learn-dummy.m */,
+				243FFB6081C5F5434BA03DB5349E991C /* Pods-WebRTC_Learn-frameworks.sh */,
+				4EF3A69C5FD5B4DE267E35812ABC7959 /* Pods-WebRTC_Learn-resources.sh */,
+				809A4A5B2106273944903A3398422B11 /* Pods-WebRTC_Learn.debug.xcconfig */,
+				64038349037A802873E5041FA0B61672 /* Pods-WebRTC_Learn.release.xcconfig */,
+			);
+			name = "Pods-WebRTC_Learn";
+			path = "Target Support Files/Pods-WebRTC_Learn";
+			sourceTree = "<group>";
+		};
+		5979276AA79E41AD922BD7F204EF9D0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				438095000536BCFBDDDAA3A41BC0BA36 /* Pods-WebRTC_Learn */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76B5C2ACBCD70C81DB89E20A88236976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2166BB5385BEFC681C5C26A607F096B0 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				B481A0F4F8D021FEBB65115DFD4F365E /* Pods */,
+				A872F4339FE813230F8360CB8AA3CFE7 /* Products */,
+				5979276AA79E41AD922BD7F204EF9D0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		889B2DE9A4443D00C5D0802B7CDBA931 /* GoogleWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				76B5C2ACBCD70C81DB89E20A88236976 /* Frameworks */,
+			);
+			name = GoogleWebRTC;
+			path = GoogleWebRTC;
+			sourceTree = "<group>";
+		};
+		A872F4339FE813230F8360CB8AA3CFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECF8541FB7CAB69112B50FFA237906C /* libPods-WebRTC_Learn.a */,
+				1F7664B95D21B6F4578A9ACD625E0E29 /* libSocketRocket.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B481A0F4F8D021FEBB65115DFD4F365E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				889B2DE9A4443D00C5D0802B7CDBA931 /* GoogleWebRTC */,
+				38182B603841AD292B5076CD8F90AB39 /* SocketRocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6D888213905F34217EF1880BE2758BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A847C3B26F9C9E99A5ACEACF501F86DD /* CFNetwork.framework */,
+				9E3725257C79D0C80F87B9E2B291C17A /* Foundation.framework */,
+				50F6DD994291AA39A94BEECAFAF0D785 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC22C6E364C3FE2BAF9EA5D2485DEB94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ADF4867DAF267146D1DCBB0A8DB92D0 /* SocketRocket.xcconfig */,
+				800A87F3109476FC4308F8D241AA8CC3 /* SocketRocket-dummy.m */,
+				EC02F33CA3C46E4427DF2C248FB04CF8 /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D29375BC03DBE273D1DFAFD1B18DE74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ADB5C2645DA260991CEB472CEF9B6C /* SocketRocket.h in Headers */,
+				B4FEF446262B38228B9AA13A93C127E1 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A0CEE377416F86C6D0A80C4AE0DFB24 /* Pods-WebRTC_Learn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A377C9CC63D83178CA23ADCA832AB2F /* Build configuration list for PBXNativeTarget "Pods-WebRTC_Learn" */;
+			buildPhases = (
+				524B0111235BAA3B1AF3891CABB5AF90 /* Sources */,
+				9C565C43B466D22EC36DF9D89E083548 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA8C508FAA9B523BB206F72E77329EF /* PBXTargetDependency */,
+			);
+			name = "Pods-WebRTC_Learn";
+			productName = "Pods-WebRTC_Learn";
+			productReference = 2ECF8541FB7CAB69112B50FFA237906C /* libPods-WebRTC_Learn.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E62EEFB5CDABF6763CB7AC1FB7D0443A /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6806945801711CE7CBDA2F8C6EEE60D3 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				A9236579A8D0C2631AE5B28F8D9C0F2D /* Sources */,
+				ED11FE61ED1DFE76ECA0CE5A080D1A32 /* Frameworks */,
+				1D29375BC03DBE273D1DFAFD1B18DE74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 1F7664B95D21B6F4578A9ACD625E0E29 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A872F4339FE813230F8360CB8AA3CFE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A0CEE377416F86C6D0A80C4AE0DFB24 /* Pods-WebRTC_Learn */,
+				E62EEFB5CDABF6763CB7AC1FB7D0443A /* SocketRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524B0111235BAA3B1AF3891CABB5AF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02CCC288283C8E800C1ADA6B7BDF0B80 /* Pods-WebRTC_Learn-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9236579A8D0C2631AE5B28F8D9C0F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C173D57163DEC9DCF6B196FF19D05732 /* SocketRocket-dummy.m in Sources */,
+				3E92BB388F2E4848C367A5474C47C758 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA8C508FAA9B523BB206F72E77329EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = E62EEFB5CDABF6763CB7AC1FB7D0443A /* SocketRocket */;
+			targetProxy = 36CF143C9488AC2295275A95E1D8CFF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3E3880C300B696B15265809B3093D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADF4867DAF267146D1DCBB0A8DB92D0 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		99FC6D251B3E5B156EE3D0310ABA5A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADF4867DAF267146D1DCBB0A8DB92D0 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9B69FF912A3E28F97F0C84B46538C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64038349037A802873E5041FA0B61672 /* Pods-WebRTC_Learn.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA189FC21B92114443C6172B7BCDF729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 809A4A5B2106273944903A3398422B11 /* Pods-WebRTC_Learn.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A377C9CC63D83178CA23ADCA832AB2F /* Build configuration list for PBXNativeTarget "Pods-WebRTC_Learn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA189FC21B92114443C6172B7BCDF729 /* Debug */,
+				D9B69FF912A3E28F97F0C84B46538C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6806945801711CE7CBDA2F8C6EEE60D3 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3E3880C300B696B15265809B3093D1 /* Debug */,
+				99FC6D251B3E5B156EE3D0310ABA5A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

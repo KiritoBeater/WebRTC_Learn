@@ -1,0 +1,11 @@
+{
+  "name": "WebRTC_Learn",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "liyang",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^4.1.0"
+  }
+}

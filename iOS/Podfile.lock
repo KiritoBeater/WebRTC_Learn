@@ -1,0 +1,15 @@
+PODS:
+  - GoogleWebRTC (1.1.22075)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - GoogleWebRTC (~> 1.1.22075)
+  - SocketRocket (~> 0.5.1)
+
+SPEC CHECKSUMS:
+  GoogleWebRTC: 8ef415cc55e7bd1dd5665754447a8f87869333dc
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 9f344c057d24b0b46b9c17d3c452bb57344f45c1
+
+COCOAPODS: 1.4.0
