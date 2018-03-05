@@ -6,6 +6,7 @@
   "author": "liyang",
   "license": "MIT",
   "dependencies": {
+    "uuid": "^3.2.1",
     "ws": "^4.1.0"
   }
 }

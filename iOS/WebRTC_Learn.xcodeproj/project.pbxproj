@@ -14,6 +14,7 @@
 		B6307A992046D26900212B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6307A982046D26900212B1F /* Assets.xcassets */; };
 		B6307A9C2046D26900212B1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6307A9A2046D26900212B1F /* LaunchScreen.storyboard */; };
 		B6307A9F2046D26900212B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6307A9E2046D26900212B1F /* main.m */; };
+		B6307AA62047FA7A00212B1F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6307AA52047FA7A00212B1F /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		B6307A9B2046D26900212B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6307A9D2046D26900212B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6307A9E2046D26900212B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6307AA52047FA7A00212B1F /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		E473E1CCB2D3985073D8E387 /* libPods-WebRTC_Learn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebRTC_Learn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				B6307A922046D26900212B1F /* ViewController.h */,
 				B6307A932046D26900212B1F /* ViewController.m */,
 				B6307A952046D26900212B1F /* Main.storyboard */,
+				B6307AA52047FA7A00212B1F /* Storyboard.storyboard */,
 				B6307A982046D26900212B1F /* Assets.xcassets */,
 				B6307A9A2046D26900212B1F /* LaunchScreen.storyboard */,
 				B6307A9D2046D26900212B1F /* Info.plist */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6307A9C2046D26900212B1F /* LaunchScreen.storyboard in Resources */,
+				B6307AA62047FA7A00212B1F /* Storyboard.storyboard in Resources */,
 				B6307A992046D26900212B1F /* Assets.xcassets in Resources */,
 				B6307A972046D26900212B1F /* Main.storyboard in Resources */,
 			);
@@ -362,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WebRTC_Learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liyang.WebRTC-Learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +381,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WebRTC_Learn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "liyang.WebRTC-Learn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
